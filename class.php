@@ -2,11 +2,9 @@
 //Create a class
 class Sample{
     public function greet() {
-        return "Hello from Sample class!";
+        return "Hello from Sample class!<br>";
+    }
+    public function week_day() {
+        return "Today is " . date("l");
     }
 }
-//call class
-//create an instance of the class
-$sample = new Sample();
-//call the greet method
-echo $sample->greet();

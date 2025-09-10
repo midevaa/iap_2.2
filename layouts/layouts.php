@@ -105,7 +105,12 @@ class layouts {
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-8">
-<?php if($_SERVER['PHP_SELF'] == '/iap_2.2/signup.php'){$ObjForm->signup(); }else{$ObjForm->signin();}?>
+    <?php
+    $page = basename($_SERVER['PHP_SELF']); 
+     if ($page === 'signup.php') {
+        $ObjForm->signup(); 
+     }else{
+        $ObjForm->signin();}?>
           </div>
           <div class="col-md-4">
             <h2>Heading</h2>

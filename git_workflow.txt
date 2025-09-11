@@ -75,3 +75,19 @@ remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To https://github.com/midevaa/iap_2.2.git
    390735d..83a0109  main -> main
 PS C:\Apache24\htdocs\iap_2.2> 
+
+
+PS C:\Apache24\htdocs\iap_2.2> git add .
+PS C:\Apache24\htdocs\iap_2.2> git commit -m "modified gitworkflow"
+[main 08bfe95] modified gitworkflow
+ 1 file changed, 71 insertions(+), 13 deletions(-)
+PS C:\Apache24\htdocs\iap_2.2> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.04 KiB | 1.04 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/midevaa/iap_2.2.git
+   83a0109..08bfe95  main -> main

@@ -1,0 +1,19 @@
+# Git Workflow
+
+1. Initialize the repository
+   git init
+
+2. To see which files are untracked or modified
+   git status
+
+3. Add all files that are to be commited
+   git add .
+
+4. Commit changes
+   git commit -m "what has been changed"
+
+5. Add remote repository
+   git remote add origin https://github.com/midevaa/iap_2.2.git
+   
+6. Push to remote
+   git push -u origin main

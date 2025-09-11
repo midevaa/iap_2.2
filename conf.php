@@ -32,7 +32,7 @@ try {
         $conf['DB_PASS']
     );
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "✅ Connected successfully to {$conf['DB_NAME']}";
+    echo "Connected successfully to {$conf['DB_NAME']}";
 } catch (PDOException $e) {
     die("DB Connection failed: " . $e->getMessage());
 }

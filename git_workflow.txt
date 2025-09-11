@@ -1,19 +1,77 @@
 # Git Workflow
 
-1. Initialize the repository
-   git init
 
-2. To see which files are untracked or modified
-   git status
+PS C:\Apache24\htdocs\iap_2.2> git add .
+PS C:\Apache24\htdocs\iap_2.2> git commit -m "bootstrap"
+[main 506282e] bootstrap
+ 12 files changed, 255 insertions(+), 46 deletions(-)
+ delete mode 100644 Global/Sample.php
+ create mode 100644 Global/SendMail.php
+ delete mode 100644 login.php
+ create mode 160000 plugins/PHPMailer
+ create mode 100644 signin.php
+ create mode 100644 signup.php
+ create mode 100644 test_mail.php
+PS C:\Apache24\htdocs\iap_2.2> git push
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (15/15), 4.62 KiB | 675.00 KiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/midevaa/iap_2.2.git
+   a6e592c..506282e  main -> main
+PS C:\Apache24\htdocs\iap_2.2> git add .
+PS C:\Apache24\htdocs\iap_2.2> git commit -m "implemented bootstrap"
+[main 6636836] implemented bootstrap
+Writing objects: 100% (3/3), 510 bytes | 510.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/midevaa/iap_2.2.git
+   506282e..6636836  main -> main
+PS C:\Apache24\htdocs\iap_2.2>
 
-3. Add all files that are to be commited
-   git add .
+PS C:\Apache24\htdocs\iap_2.2> git add .
+PS C:\Apache24\htdocs\iap_2.2> git commit -m "modified mailing to specific username"
+[main dfcc9b5] modified mailing to specific username
+ 5 files changed, 51 insertions(+), 17 deletions(-)
+PS C:\Apache24\htdocs\iap_2.2> git push
+Writing objects: 100% (8/8), 1.56 KiB | 531.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/midevaa/iap_2.2.git
+   6636836..dfcc9b5  main -> main
+PS C:\Apache24\htdocs\iap_2.2>
 
-4. Commit changes
-   git commit -m "what has been changed"
+                               git add .
+PS C:\Apache24\htdocs\iap_2.2> git add .
+PS C:\Apache24\htdocs\iap_2.2> git commit -m "display users that have registered after connecting to DB"
+[main 390735d] display users that have registered after connecting to DB
+ 3 files changed, 67 insertions(+), 5 deletions(-)
+ create mode 100644 users.php
+PS C:\Apache24\htdocs\iap_2.2> git push
+Writing objects: 100% (5/5), 1.50 KiB | 513.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/midevaa/iap_2.2.git
+   dfcc9b5..390735d  main -> main
+PS C:\Apache24\htdocs\iap_2.2>
 
-5. Add remote repository
-   git remote add origin https://github.com/midevaa/iap_2.2.git
-   
-6. Push to remote
-   git push -u origin main
+
+PS C:\Apache24\htdocs\iap_2.2> git add .
+PS C:\Apache24\htdocs\iap_2.2> git commit -m "modified users and added gitworkflow"
+[main 83a0109] modified users and added gitworkflow
+ 3 files changed, 25 insertions(+), 1 deletion(-)
+ create mode 100644 git_workflow.txt
+PS C:\Apache24\htdocs\iap_2.2> git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 699 bytes | 349.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/midevaa/iap_2.2.git
+   390735d..83a0109  main -> main
+PS C:\Apache24\htdocs\iap_2.2> 

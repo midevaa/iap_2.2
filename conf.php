@@ -3,7 +3,7 @@
 $conf['site_timezone'] = "Africa/Nairobi";
 
 $conf['site_name'] = 'ICS Academy';
-$conf['base_url'] = 'http://localhost/my_php_app/';
+$conf['base_url'] = 'http://localhost/IAP_2.2/';
 $conf['site_email'] = 'info@icsacademy.com';
 
 //site language

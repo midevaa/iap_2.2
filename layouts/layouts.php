@@ -16,7 +16,7 @@ class layouts {
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo $conf['base_url'];?>/css/bootstrap.css" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
@@ -141,9 +141,8 @@ class layouts {
     <script src="../../dist/js/bootstrap.min.js"></script> -->
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script src="<?php $conf['site_url'];?>js/bootstrap.min.js" crossorigin="anonymous"></script>
 
   </body>
 </html>

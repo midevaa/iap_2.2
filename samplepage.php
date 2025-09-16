@@ -1,2 +1,3 @@
 <?php
-print basename($_SERVER['PHP_SELF']);
+phpinfo();
+//print basename($_SERVER['PHP_SELF']);

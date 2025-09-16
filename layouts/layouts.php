@@ -11,7 +11,7 @@ class layouts {
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title><?php echo $conf['site_name'];?></title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
 
@@ -25,10 +25,10 @@ class layouts {
   <body>
 <?php
     }
-    public function nav($conf) {
+    public function navbar($conf) {
     ?>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#"><?php echo $conf['site_name'];?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -63,10 +63,10 @@ class layouts {
     public function banner($conf) {
     ?>
     <main role="main">
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Hello, world!</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <div class="jumbotron py-1 my-0">
+        <div class="container-fluid py-1">
+          <h1 class="display-1">ICS Academy, welcome!</h1>
+          <p>Here, we are going to learn fundermental coding skills necessary in creating apps and websites. Enroll and build your own coding empire today!</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>
       </div>
@@ -78,18 +78,18 @@ class layouts {
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2>Learn, Connect and Grow!</h2>
+            <p>At ICS Academy, our online portal gives you easy access to courses, learning materials, and academic updates. Here you can manage your studies, stay informed with the latest announcements, and explore resources designed to support your academic journey. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2>Your Gateway to Success!</h2>
+            <p>Use the portal to register for classes, check your grades, and track your academic progress. Everything you need to succeed is organized in one place, making your learning experience smooth and efficient.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <h2>Stay Informed, Stay Ahead</h2>
+            <p>Get instant notifications about deadlines, lecturer announcements, and new opportunities. The portal helps you stay updated so you never miss important information in your academic journey.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
@@ -113,8 +113,8 @@ class layouts {
         $ObjForm->signin();}?>
           </div>
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <h2>Learn, Connect and Grow!</h2>
+            <p>At ICS Academy, our online portal gives you easy access to courses, learning materials, and academic updates. Here you can manage your studies, stay informed with the latest announcements, and explore resources designed to support your academic journey.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>

@@ -2,9 +2,9 @@
 //set timezone
 $conf['site_timezone'] = "Africa/Nairobi";
 
-$conf['site_name'] = 'ICS Academy';
+$conf['site_name'] = 'Tech School';
 $conf['base_url'] = 'http://localhost/IAP_2.2/';
-$conf['site_email'] = 'info@icsacademy.com';
+$conf['site_email'] = 'info@techschool.com';
 
 //site language
 $conf['site_lang'] = 'en';
@@ -20,7 +20,7 @@ $conf['DB_NAME'] = 'iap_db';
 $conf['mail_type'] = 'smtp'; // mail or smtp
 $conf['smtp_host'] = 'smtp.gmail.com'; // SMTP Host Address
 $conf['smtp_user'] = 'natmalwa77@gmail.com'; // SMTP Username
-$conf['smtp_pass'] = 'rvfn jrbb blut phsc'; // SMTP Password
+$conf['smtp_pass'] = ''; // SMTP Password
 $conf['smtp_port'] = 465; // SMTP Port - 587 for tls, 465 for ssl
 $conf['smtp_secure'] = 'ssl'; // Encryption - ssl or tls
 

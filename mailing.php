@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'name_to'   => $name,
         'mail_to'   => $email,
         'subject'   => 'Welcome to ICS Academy. Account Verification',
-        'body'      => "Hello <b>$name</b>,<br>Welcome to ICS Academy!<br>Your account has been created.<br>Study hard this academic year!!<br><br>Best Regards,<br>ICS Academy Team."
+        'body'      => "Hello <b>$name</b>,<br>Welcome to Tech School!<br>Your account has been created, to verify use the code below to activate it.<br><br>678354<br>Study hard this academic year!!<br><br>Best Regards,<br>Tech School Team."
     ];
 
     //Send email

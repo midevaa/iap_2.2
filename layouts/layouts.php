@@ -65,7 +65,7 @@ class layouts {
     <main role="main">
       <div class="jumbotron py-1 my-0">
         <div class="container-fluid py-1">
-          <h1 class="display-1">ICS Academy, welcome!</h1>
+          <h1 class="display-1">Tech School, welcome!</h1>
           <p>Here, we are going to learn fundermental coding skills necessary in creating apps and websites. Enroll and build your own coding empire today!</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>

@@ -27,11 +27,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     //email content
     $mailCnt = [
-        'name_from' => 'ICS Academy',
+        'name_from' => 'Tech School',
         'mail_from' => 'your-smtp-username@example.com',
         'name_to'   => $name,
         'mail_to'   => $email,
-        'subject'   => 'Welcome to ICS Academy. Account Verification',
+        'subject'   => 'Welcome to Tech School. Account Verification',
         'body'      => "Hello <b>$name</b>,<br>Welcome to Tech School!<br>Your account has been created, to verify use the code below to activate it.<br><br>678354<br>Study hard this academic year!!<br><br>Best Regards,<br>Tech School Team."
     ];
 
